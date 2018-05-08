@@ -1,0 +1,46 @@
+body {
+	background: gray;
+	padding: 10px;
+}
+
+img {
+	margin: 20px;
+}
+
+form {
+	margin: 40px;
+	text-align: center;
+}
+
+label {
+	font-size: 26px;
+	margin: 0 20px;
+}
+
+input {
+	width: 250px;
+	height: 40px;
+	font-size: 26px;
+}
+
+img:hover {
+	transform: rotateY(720deg);
+	transition-duration: 3s;
+}
+
+.user {
+	margin: 5px;
+	background: -webkit-linear-gradient(#F0FFFF, #00FFFF);
+}
+
+.user a {
+	font-size: 30px;
+	color: 	#A52A2A;
+}
+
+.user a:hover {
+	text-decoration: none;
+	color: #1E90FF;
+	font-size: 36px;
+	transition-duration: 1s;
+}
